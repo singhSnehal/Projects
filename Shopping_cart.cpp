@@ -47,7 +47,7 @@ void ITEMS :: removeItems(void)
     
     for(int i=0;i<count;i++)
     {
-        if(itemCode == a)
+        if(itemCode[i] == a)
         {
             itemPrice[i]=0;
         }
